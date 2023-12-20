@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/" type="image/x-icon">
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/temp.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <a href="#" class="logo"><span>Po</span>rtfolio</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+            <i id="close-menu" class="fas fa-times"></i>
+        </nav>
+        <i id="open-menu" class="fas fa-bars"></i>
+    </header>
+    <!-- end header -->
+    <!-- start home -->
+    <section class="home">
+        <div class="info">
+            <h1>Mamoud <span>Eltawel</span></h1>
+            <h3>- Web Developer</h3>
+            <p>I have been working since 2023. I am good at UI Design, Web Development & Digital Markting</p>
+            <a href="images/CV.pdf" target="_blank" download>Download CV</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+    <!-- end home -->
+    <!-- start about -->
+    <section id="about">
+        <div class="image">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="sec-tit">
+                <h2 class="sub-tit">About me</h2>
+                <h3 class="tit">Web Developer</h3>
+            </div>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi error impedit 
+                dolor beatae dicta nesciunt animi culpa, labore eligendi in, sequi sint libero ipsum voluptas 
+                quisquam magnam sunt. Perferendis!</p>
+            <div class="tab-tit">
+                <p class="active-link" onclick="openTab('skills')">Skills</p>
+                <p onclick="openTab('experience')">Experience</p>
+                <p onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>
+                        <span>UI/UX Design</span>
+                        <br>Designing Web/App Interfaces
+                    </li>
+                    <li>
+                        <span>Web Development</span>
+                        <br>Web App Development
+                    </li>
+                    <li>
+                        <span>Digital Markting</span>
+                        <br>Building Businesses
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span>2023-2023</span>
+                        <br>Intern Developer at Web for Solutions Ltd.
+                    </li>
+                    <li>
+                        <span>2023-2023</span>
+                        <br>Intern Developer at Web for Solutions Ltd.
+                    </li>
+                    <li>
+                        <span>2023-2023</span>
+                        <br>Intern Developer at Web for Solutions Ltd.
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>
+                        <span>2020-Current</span>
+                        <br>BSc in Computer Science from MU University
+                    </li>
+                    <li>
+                        <span>2017-2020</span>
+                        <br>HSC from Bani Mazar Secondary School
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start services -->
+    <section id="services">
+        <div class="sec-tit">
+            <h2 class="sub-tit">My Services</h2>
+            <h3 class="tit">A brief of Offering Services</h3>
+        </div>
+        <div class="container">
+            <div class="box">
+                <i class="fab fa-battle-net"></i>
+                <h2>Branding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe"></i>
+                <h2>Print Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-laptop"></i>
+                <h2>Wordpress</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-pix"></i>
+                <h2>Graphics Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-lock"></i>
+                <h2>Cyber Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-laptop-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore, perspiciatis 
+                    quasi pariatur odit consectetur!</p>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+    <!-- start portfolio -->
+    <section id="portfolio">
+        <div class="sec-tit">
+            <h2 class="sub-tit">My Portfolio</h2>
+            <h3 class="tit">Awesome Works</h3>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="images/por-01.jpg" alt="">
+                <div class="content">
+                    <h2>Project title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam exercitationem nisi 
+                        voluptates excepturi suscipit nemo.</p>
+                    <a href="#"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/por-02.jpg" alt="">
+                <div class="content">
+                    <h2>Project title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam exercitationem nisi 
+                        voluptates excepturi suscipit nemo.</p>
+                    <a href="#"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/por-03.jpg" alt="">
+                <div class="content">
+                    <h2>Project title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam exercitationem nisi 
+                        voluptates excepturi suscipit nemo.</p>
+                    <a href="#"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+    <!-- start testimonials -->
+    <section id="testimonials">
+        <div class="sec-tit">
+            <h2 class="sub-tit">Testimonials</h2>
+            <h3 class="tit">What are People saying?</h3>
+        </div>
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Laborum impedit quod exercita
+                    tionem optio.</p>
+                <div class="user">
+                    <div class="image">
+                        <img src="images/user-01.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Ma Eltawel</h3>
+                        <h5>Web Developer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Laborum impedit quod exercita
+                    tionem optio.</p>
+                <div class="user">
+                    <div class="image">
+                        <img src="images/user-02.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Billie</h3>
+                        <h5>Graphics Designer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Laborum impedit quod exercita
+                    tionem optio.</p>
+                <div class="user">
+                    <div class="image">
+                        <img src="images/user-03.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Bie</h3>
+                        <h5>Digital Marketer</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonials -->
+    <!-- start contact -->
+    <section id="contact">
+        <div class="sec-tit">
+            <h2 class="sub-tit">Contact us</h2>
+            <h3 class="tit">Get in Touch</h3>
+        </div>
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="your name" required>
+                <input type="email" placeholder="your email" required>
+                <textarea rows="6" placeholder="your message" required></textarea>
+                <button type="submit">Send Message <i class="fas fa-arrow-right"></i></button>
+            </form>
+            <hr>
+            <div class="content">
+                <div class="box">
+                    <i class="fas fa-location-dot"></i>
+                    <div class="info">
+                        <h2>Address</h2>
+                        <p>Cairo, Egypt : 20024</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <div class="info">
+                        <h2>Phone</h2>
+                        <p>+201 1139 11655</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <h2>Email</h2>
+                        <p>tata@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe"></i>
+                    <div class="info">
+                        <h2>Website</h2>
+                        <p>www.eltawel.org</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            Copyright &copy;2023 | Developed with <i class="fas fa-heart"></i> by <a href="#">Ma Eltawel</a>
+        </div>
+    </section>
+    <!-- end contact -->
+    
+    <!-- javascript files -->
+    <script src="main.js"></script>
+</body>
+</html>
